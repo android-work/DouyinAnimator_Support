@@ -17,7 +17,7 @@ implementation 'com.github.android-work:DouyinAnimator_Support:v1.0.1'
 相关的动画调用方法
 #### 抖音进度条拉伸动画
   ##### 1、添加布局
-      <com.work.android.douyinanimatorview.DouyinLoadingBarView
+      <com.work.android.loadview.DouyinLoadingBarView
         android:layout_width="match_parent"
         android:layout_height="10dp"/>
   ##### 2、初始化
@@ -28,7 +28,7 @@ implementation 'com.github.android-work:DouyinAnimator_Support:v1.0.1'
        
 #### 抖音两个小球来回切换动画
   ##### 1、添加布局
-      <com.work.android.douyinanimatorview.DouYinLoadTwoBallView
+      <com.work.android.loadview.DouYinLoadTwoBallView
         android:layout_marginTop="10dp"
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -42,7 +42,7 @@ implementation 'com.github.android-work:DouyinAnimator_Support:v1.0.1'
 
 #### 三个小球来回选中加载动画
   ##### 1、添加布局
-       <com.work.android.douyinanimatorview.ThreePointCycleSwitching
+       <com.work.android.loadview.ThreePointCycleSwitching
           android:layout_marginTop="10dp"
           android:layout_width="100dp"
           android:layout_height="20dp"
@@ -56,7 +56,7 @@ implementation 'com.github.android-work:DouyinAnimator_Support:v1.0.1'
         
 #### 仿抖音下载视频弹窗进度动画
    ##### 1、添加布局
-        <com.work.android.douyinanimatorview.DownloadPopupWindowView
+        <com.work.android.loadview.DownloadPopupWindowView
             android:layout_marginTop="10dp"
             android:layout_width="300dp"
             android:layout_height="300dp"
